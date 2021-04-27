@@ -10,6 +10,7 @@
   - Entry: 시작하는 파일들
   - Output: 결과가 어떻게 되는지
   - Loaders: 모듈들
+  - Plugins: 플러그인을 통한 기능 확장
 
 ## 설치
 
