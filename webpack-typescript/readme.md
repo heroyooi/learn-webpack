@@ -32,4 +32,4 @@ npm run serve
 
 ## 강좌
 
-- [Webpack & TypeScript #6](https://www.youtube.com/watch?v=lXWDkPCzeE4&list=PL4cUxeGkcC9hOkGbwzgYFmaxB0WiduYJC&index=6)
+- [Webpack & TypeScript](https://youtu.be/sOUhEJeJ-kI)
