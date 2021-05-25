@@ -14,6 +14,7 @@ const config = {
   entry: {
     app: "./client",
   },
+  target: ["web", "es5"],
   module: {
     rules: [
       {
@@ -34,10 +35,17 @@ const config = {
           ],
           plugins: ["react-refresh/babel"],
         },
+        exclude: path.join(__dirname, "node_modules"),
       },
     ],
   },
-  plugins: [new ReactRefreshWebpackPlugin()],
+  plugins: [
+    new ReactRefreshWebpackPlugin({
+      overlay: {
+        useURLPolyfill: true,
+      },
+    }),
+  ],
   output: {
     filename: "app.js",
     path: path.join(__dirname, "dist"),
